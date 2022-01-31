@@ -4,122 +4,91 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Git Bash Commands</title>
+    <!-- BOOTSTRAP CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Git Commands</title>
+
     <style>
-        .commands {
-            font-size: large;
-            color: rgb(11, 134, 11);
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            font-style: italic;
-            font-weight: 900;
-            text-align: center;
-            line-height: 180%;
+        .btn {
+            color: black;
+            font-weight: bold;
+            font-size: larger;
         }
 
-        .points {
-            font-size: 20;
-            color: rgb(71, 139, 141);
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            font-style: oblique;
-            font-weight: 700;
-            text-align: center;
-            line-height: 180%;
+        body {
+            background: linear-gradient(-45deg, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%,
+                    #f18271 75%, #f3a469 87%, #f7c978 100%);
+            background-size: 400% 400%;
+            animation: gradient 20s ease infinite;
+            height: 100vh;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .dropShadow {
+            -webkit-filter: drop-shadow(5px 5px 5px #666666);
+            filter: drop-shadow(5px 5px 5px #666666);
+        }
+
+        @keyframes gradient {
+            0% {
+                background-position: 0%;
+            }
+
+            50% {
+                background-position: 100%;
+            }
+
+            100% {
+                background-position: 0%;
+            }
         }
     </style>
 </head>
 
 <body>
-    <h2 style="text-align: center;">
-        ==> GIT BASH COMMANDS
-        <== <br />
-        **************************
-    </h2>
 
-    <div class="points">
-        * ls -> list content of current location
-    </div>
+    <!-- <div>
+            <img src="./git.png" width="480" height="280" />
+    </div> -->
 
-    <div class="commands">
-        Command: ls (enter)
-    </div>
+    <div class="container">
+        <div style="margin-bottom: 20;">
+            <img src="./Git-Github-Essentials.jpg" width="213" height="170" class="dropShadow" />
+        </div>
 
-    <div class="points">
-        * To open windows explorer
-    </div>
+        <div style="margin-bottom: 10;">
+            <button type="button" class="btn btn-warning btn-lg"
+                onclick="document.location='git_bash_commands.html.html'">
+                Git Bash Commands
+            </button>
+        </div>
 
-    <div class="commands">
-        Command: start . (enter)
-    </div>
+        <div style="margin-bottom: 10;">
+            <button type="button" class="btn btn-warning btn-lg"
+                onclick="document.location='git_bash_commands.html.html'">
+                Git Bash Commands
+            </button>
+        </div>
 
-    <div class="points">
-        To open mac finder
-    </div>
+        <div style="margin-bottom: 10;">
+            <button type="button" class="btn btn-warning btn-lg"
+                onclick="document.location='git_bash_commands.html.html'">
+                Git Bash Commands
+            </button>
+        </div>
 
-    <div class="commands">
-        Command: open . (enter)
-    </div>
-
-    <div class="points">
-        * pwd (print working directory)
-    </div>
-
-    <div class="commands">
-        Command: pwd (enter)
-    </div>
-
-    <div class="points">
-        * cd (change directory) & cd .. (to exit or navigate back from that location)
+        <div style="margin-bottom: 10;">
+            <button type="button" class="btn btn-warning btn-lg"
+                onclick="document.location='git_bash_commands.html.html'">
+                Git Bash Commands
+            </button>
+        </div>
     </div>
 
-    <div class="commands">
-        Command: cd (enter)
-        Command: cd .. (enter)
-    </div>
 
-    <div class="points">
-        * To Create File
-    </div>
-
-    <div class="commands">
-        Command: touch file_name.extension (enter)
-    </div>
-
-    <div class="points">
-        Can make multiple files
-    </div>
-
-    <div class="commands">
-        Command: touch file1.extension file2.extension file3.extension (enter)
-    </div>
-    <div class="points">
-        Can make file in specific folder or to the path
-    </div>
-
-    <div class="commands">
-        Command: touch path/fileName.extension (enter)
-    </div>
-
-    <div class="points">
-        * To make folder
-    </div>
-
-    <div class="commands">
-        Command: mkdir folderName (enter)
-    </div>
-    <div class="points">
-        * To remove the file
-    </div>
-
-    <div class="commands">
-        Command: rm FileName.extension (enter)
-    </div>
-    <div class="points">
-        In order to delete directory or folder need to put or use the flag -rm
-    </div>
-
-    <div class="commands">
-        Command: rm -rf folderName (enter)
-    </div>
 
 </body>
 
